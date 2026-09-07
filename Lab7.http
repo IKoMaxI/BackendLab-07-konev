@@ -1,0 +1,15 @@
+@Lab7_HostAddress = http://localhost:5029
+
+GET {{Lab7_HostAddress}}/ping
+
+###
+
+GET {{Lab7_HostAddress}}/trace
+
+###
+
+GET {{Lab7_HostAddress}}/blocked/test
+
+###
+
+GET {{Lab7_HostAddress}}/error
